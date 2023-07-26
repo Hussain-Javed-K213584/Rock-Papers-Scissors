@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js">
+    </script>
+</head>
+<body>
+    <h1 id="display-heading">Rock 🪨 Papers 📃 Scissors ✂️</h1>
+    <div class="game-btn-container">
+        <!-- Displays the buttons for rps-->
+        <button class="rock-btn">
+            <img id="rock-button-img" src="./images/rock_img.png" alt="rock">
+        </button>
+        <button class="paper-btn">
+            <img id="paper-button-img" src="./images/paper_img.png" alt="paper">
+        </button>
+        <button class="scissor-btn">
+            <img id="scissor-button-img" src="./images/scissor_img.png" alt="scissor">
+        </button>
+    </div>
+    <div class="container">
+        <div class="score-container">
+            <h2>Score</h2>
+            <div class="score-display-container">
+                <p class="para prompt">Click on any of the choices to begin</p>
+            </div>
+        </div>
+        <div class="winner-display">
+            <!-- This div will display the result-->
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+           <p>Created by <i class='fa fa-github'></i> 
+            <a href="https://github.com/Hussain-Javed-K213584" target="_blank"
+            rel="noreferrer noopener">Muhammad Hussain</a></p>
+        </div>
+    </footer>
+</body>
+</html>

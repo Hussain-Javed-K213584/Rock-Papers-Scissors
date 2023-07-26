@@ -1,2 +1,1 @@
-# Rock-Papers-Scissors
-A rock papers scissors project which I completed for the odin project.
+The rock, paper, scissors project. Currently it's only console based.
